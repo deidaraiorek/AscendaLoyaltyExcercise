@@ -32,5 +32,5 @@ npm run test
 or
 npx jest
 or 
-jest ( if you installedest globally)
+jest ( if you installed Jest globally)
 
