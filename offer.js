@@ -64,9 +64,8 @@ class Offer {
 // )
 //   .then((response) => response.json())
 //   .then((response) => {
-//     console.log(response);
-//     let offer = new Offer(response, "1-1-1");
-//     offer.getOffer();
+//     let offer = new Offer(response, "2019-12-25");
+//     console.log(offer.getOffer());
 //   });
 
 module.exports = Offer;
