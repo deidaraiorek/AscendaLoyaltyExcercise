@@ -23,7 +23,7 @@ The purpose of the test.js file is to write unit tests for the ofer.js class to 
 * Install Jest through the command: npm install -g jest
 
 3. To run the code, you can use the following command:
-* node offer.js \n
+* node offer.js <br>
 (please note the file has no input and output; therefore, in order to run this file alone, you can uncomment from line 61 to 70 to test the result of the Offer class in case the check-in date is "2019-12-25")
 
 ## Testing
