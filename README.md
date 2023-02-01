@@ -24,7 +24,7 @@ The purpose of the test.js file is to write unit tests for the ofer.js class to 
 
 3. To run the code, you can use the following command:
 * node offer.js <br>
-(please note the file has no input and output; therefore, in order to run this file alone, you can uncomment from line 61 to 70 to test the result of the Offer class in case the check-in date is "2019-12-25")
+(Please note the file has no input and output; therefore, in order to run this file alone, you can uncomment from line 61 to 70 to test the result of the Offer class in case the check-in date is "2019-12-25". For further testing the result of the file, please run the test file)
 
 ## Testing
 The code is tested using Jest. To run the tests, you can use the following command:
