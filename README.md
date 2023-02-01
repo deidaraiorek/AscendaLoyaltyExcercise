@@ -2,7 +2,7 @@
 # README
 
 ## Introduction
-This project consists of three files: offer.js, response.js and test.js. The purpose of the offer.js file is to build a class that filters offers based on the customer's check-in date and the API response. The class takes two arguments: the API response and the customer's check-in date.
+This project consists of three files: offer.js, response.js and test.js. The purpose of the offer.js file is to build a class that filters offers based on the customer's check-in date and the API response.
 
 The purpose of the response.js file is to handle the API response and extract the relevant information about the offers, such as the offer's id, title, description, category,merchant information, and valid date.
 
