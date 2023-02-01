@@ -1,40 +1,35 @@
 ﻿# AscendaLoyaltyExcercise
-H1 README
+# README
 
-Introduction
-This project consists of two files: offer.js and response.js. The purpose of these files is to retrieve offers from an API and filter the offers based on certain criteria.
+## Itroduction
+This project consists of three files: offer.js, response.js and test.js. The purpose of the offer.js file is to build a class that filters offers based on the customer's check-in date and the API response. The class takes two arguments: the API response and the customer's check-in date.
 
-Prerequisites
+The purpose of the response.js file is to handle the API response and extract the relevant information about the offers, such as the offer's id, title, description, category,merchant information, and valid date.
+
+The purpose of the test.js file is to write unit tests for the ofer.js class to verify its functionality and ensure that it is working correctly. The tests should cover the different cases and scenarios that the class may encounter, such as invalid offers, offers from multiple merchants, and offers from the same category, and verify that the class filters the offers as expected and returns the correct modified response.
+
+## requisites
 Node.js
-npm or yarn
-Jest (for testing)
+npm
+Jest
 
-Installation
+## Installation
 
-Clone the repository to your local machine using the following command:
-bash
-Copy code
-git clone https://github.com/<user>/<repository>.git
-Navigate to the cloned repository and run the following command to install the required dependencies:
-Copy code
+1. Clone the repository to your local machine using the following command:
+git clone https://github.com/deidaraiorek/AscendaLoyaltyExcercise
+
+2. Navigate to the cloned repository and run the following command to install the required dependencies: 
 npm install
-or
 
-Copy code
-yarn install
-Running the code
-To run the code, you can use the following command:
-
-Copy code
+3. To run the code, you can use the following command:
 node offer.js
-Testing
-The code is tested using Jest. To run the tests, you can use the following command:
+node response.js
 
-bash
-Copy code
+## Testing
+The code is tested using Jest. To run the tests, you can use the following command:
 npm run test
 or
+npx jest
+or 
+jest ( if you installedest globally)
 
-bash
-Copy code
-yarn test
