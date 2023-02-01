@@ -18,12 +18,13 @@ The purpose of the test.js file is to write unit tests for the ofer.js class to 
 1. Clone the repository to your local machine using the following command:
 * git clone https://github.com/deidaraiorek/AscendaLoyaltyExcercise
 
-2. Navigate to the cloned repository and run the following command to install the required dependencies: 
-npm install
+2. Navigate to the cloned repository and install the required dependencies: 
+* Install Node.js through https://nodejs.org/en/download/
+* Install Jest through the command: npm install -g jest
 
 3. To run the code, you can use the following command:
 * node offer.js
-* node response.js
+(please note the file has no input and output; therefore, in order to run this file alone, you can uncomment from line 61 to 70 to test the result of the Offer class in case the check-in date is "2019-12-25")
 
 ## Testing
 The code is tested using Jest. To run the tests, you can use the following command:
