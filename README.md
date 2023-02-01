@@ -1,5 +1,5 @@
 ﻿# AscendaLoyaltyExcercise
-README
+H1 README
 
 Introduction
 This project consists of two files: offer.js and response.js. The purpose of these files is to retrieve offers from an API and filter the offers based on certain criteria.
