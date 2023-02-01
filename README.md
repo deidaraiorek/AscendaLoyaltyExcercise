@@ -6,7 +6,7 @@ This project consists of three files: offer.js, response.js and test.js. The pur
 
 The purpose of the response.js file is to handle the API response and extract the relevant information about the offers, such as the offer's id, title, description, category,merchant information, and valid date.
 
-The purpose of the test.js file is to write unit tests for the ofer.js class to verify its functionality and ensure that it is working correctly. The tests should cover the different cases and scenarios that the class may encounter, such as invalid offers, offers from multiple merchants, and offers from the same category, and verify that the class filters the offers as expected and returns the correct modified response.
+The purpose of the test.js file is to write unit tests for the ofer.js class to verify its functionality and ensure that it is working correctly. The tests cover the different cases and scenarios that the class may encounter and verify that the class filters the offers as expected and returns the correct modified response.
 
 ## Requisites
 * Node.js
